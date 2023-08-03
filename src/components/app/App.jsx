@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Outlet, Route, Routes } from 'react-router-dom'
 import Header from '../layouts/Header/Header'
-import CreateTestPage from '../../pages/CreateTestPage/CreateTestPage'
+import CreateTestPage from '../../pages/CreateQuestionPage/CreateQuestionPage'
 function App() {
 
   return (
