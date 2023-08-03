@@ -1,0 +1,61 @@
+
+
+
+.create-question-page {
+    &__subtitle {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    &__inputblock {
+        position: relative;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    &__input{
+        width: 1115px;
+        height: 55px;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+        font-size: 24px;
+        padding: 5px 10px 5px 10px;
+    }
+    &__button {
+        margin-top: 20px;
+        width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        background: url('../../assets/addOption.png');
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover {
+           background-color: green; 
+        }
+    }
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%; /* Use 50% to create a circle */
+    display: flex;
+    border: 3px solid black; /* Corrected border syntax */
+    height: 44px;
+    width: 44px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &__minus {
+        position: absolute;
+        display: flex;
+        height: 3px;
+        background-color: black;
+        width: 10px;
+    }
+    &:hover {
+        background-color: rgb(255, 156, 156); 
+     }
+}
