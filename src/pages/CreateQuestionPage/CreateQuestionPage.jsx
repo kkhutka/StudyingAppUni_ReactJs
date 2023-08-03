@@ -60,6 +60,11 @@ const CreateQuestionPage = () => {
         answerOptions: optionsArray,
         correctAnswer: correctAnswer,
     };
+	setTask('');
+	setTopicId()
+	setCorrectAnswer('');
+	setOptionsArray([]);
+
 
     axios.post('/questions', questionData)
         .then(response => {
