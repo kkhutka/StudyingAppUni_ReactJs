@@ -1,0 +1,23 @@
+.defaultButton{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font-size: 21px; /* Adjust the font size to your preference */
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #fff; /* Text color (white) */
+    background-color: #5F6FFB; /* Blue background color */
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  
+    &:hover {
+      background-color:  #9e95f6; /* Darker blue color on hover */
+    }
+  
+    &:focus {
+      outline: none; /* Remove the default focus outline */
+    }
+}

@@ -1,0 +1,31 @@
+.loginBox{
+    &__container{
+        height:  fit-content ;
+        width: 500px;
+        border: none;
+        border-radius: 40px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        background-color: rgb(255, 255, 255) ;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        flex-direction: column;
+        margin-top: 0; /* Adjust this margin as needed */
+        margin-bottom: 0;
+
+    }
+    &__input{
+        width: 88%;
+        height: fit-content;
+        margin: 25px;
+    }
+    &__button{
+        width: 70%;
+        height: fit-content;
+        margin: 25px;
+        margin-top: 10%;
+
+    }
+}

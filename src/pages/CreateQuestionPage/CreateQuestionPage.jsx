@@ -3,7 +3,7 @@ import './CreateQuestionPage.scss'
 import { useEffect, useState } from "react";
 import axios from '../../axios.jsx';
 
-const CreateQuestionPage = () => {
+const CreateQuestionPage = () => { 
     
     
     const [correctAnswer, setCorrectAnswer] = useState('');

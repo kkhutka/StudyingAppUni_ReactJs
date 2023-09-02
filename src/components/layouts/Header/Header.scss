@@ -1,0 +1,39 @@
+Header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #5F6FFB;
+    margin-bottom: 1%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    border: none;
+    position: relative;
+    a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+}
+
+text{
+    position: sticky;
+    margin: 30px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.logo{
+    width: 45px;
+    margin: 30px;
+
+}
